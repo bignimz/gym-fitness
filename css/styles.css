@@ -87,6 +87,50 @@ section {
   color: #db0000;
 }
 
+.outline-2 {
+  padding: 12px 40px;
+  background-color: transparent;
+  border: 2px solid #777;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in 0.4s;
+}
+
+.outline-2:hover {
+  background-color: transparent;
+  border: 2px solid #db0000;
+  color: #db0000;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #db0000;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.bg-text {
+  position: absolute;
+  top: 0px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  opacity: 0.05;
+  z-index: -1;
+}
+
 /* Header Styles */
 
 /* Topbar */
@@ -231,7 +275,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  z-index: 10;
 }
 
 .two {
@@ -240,7 +283,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  z-index: 10;
 }
 
 .carousel-control-prev {
@@ -413,6 +455,43 @@ section {
   padding: 15px 0px;
 }
 
+/* Services carousel */
+.services-carousel {
+  position: relative;
+}
+
+.card {
+  position: relative;
+  margin: 30px 0px;
+  padding-bottom: 50px;
+  max-width: 350px;
+}
+
+.card:hover .service-icon {
+  background-color: #db0000;
+  color: #fff;
+}
+
+.card-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.service-icon {
+  position: relative;
+  top: -50px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 15px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 40px;
+}
+
 /* Media queries */
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .trainers-cta {
@@ -499,7 +578,6 @@ section {
     display: block;
     font-size: 20px;
     cursor: pointer;
-    z-index: 5;
   }
 
   /* Hero */
