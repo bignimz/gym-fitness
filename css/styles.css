@@ -527,6 +527,47 @@ section {
   position: relative;
 }
 
+/* Gym CTA */
+.gym-cta {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/cathy-pham-3jAN9InapQI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.cta-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.cta-gym-title {
+  font-size: 46px;
+  font-weight: normal;
+}
+
+.cta-subtitle {
+  font-size: 22px;
+}
+
+.video-button i {
+  position: relative;
+  top: -50px;
+  font-size: 90px;
+  color: #db0000;
+  z-index: 10;
+}
+
 /* Media queries */
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .trainers-cta {
