@@ -122,12 +122,12 @@ section {
 
 .bg-text {
   position: absolute;
-  top: 0px;
+  top: -80px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   color: #333;
-  opacity: 0.05;
+  opacity: 0.08;
   z-index: -1;
 }
 
@@ -258,18 +258,18 @@ section {
   height: 100vh;
   position: relative;
   padding: 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url("../images/slider2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top; */
 }
 
 /* .carousel-item {
   height: 100vh;
 } */
 
-.one {
+/* .one {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url("../images/slider1.jpg");
   background-repeat: no-repeat;
@@ -283,7 +283,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-}
+} */
 
 .carousel-control-prev {
   clip-path: polygon(50% 0, 0 50%, 50% 100%);
@@ -305,6 +305,14 @@ section {
 
 .carousel-control-prev-icon {
   font-size: 25px;
+}
+
+.carousel-item {
+  position: relative;
+  height: 100vh;
+  background-color: #111;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-container {
@@ -345,6 +353,18 @@ section {
   max-width: 600px;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
 }
 
 /* Trainers CTA */
@@ -460,6 +480,16 @@ section {
   position: relative;
 }
 
+.news-card {
+  height: 100%;
+  max-height: 25vh;
+}
+
+.news-card img {
+  height: 25vh;
+  max-height: 100%;
+}
+
 .card {
   position: relative;
   margin: 30px 0px;
@@ -490,6 +520,11 @@ section {
   background-color: #fff;
   padding: 20px;
   font-size: 40px;
+}
+
+/* News Insights */
+.news-insights {
+  position: relative;
 }
 
 /* Media queries */
