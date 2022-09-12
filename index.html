@@ -107,23 +107,56 @@
     <section class="hero">
       <!-- hero-slides -->
       <div
-        id="carouselExampleInterval"
+        id="carouselExampleCaptions"
         class="carousel slide"
-        data-bs-ride="carousel"
+        data-bs-ride="true"
       >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
         <div class="carousel-inner">
-          <div class="carousel-item one" data-bs-interval="10000">
-            <!-- <img src="./images/slider1.jpg" alt="..." /> -->
+          <div class="carousel-item active">
+            <div
+              class="overlay-image"
+              style="background-image: url(./images/slider1.jpg)"
+            ></div>
           </div>
-
-          <div class="carousel-item two">
-            <!-- <img src="./images/slider2.jpg" alt="..." /> -->
+          <div class="carousel-item active">
+            <div
+              class="overlay-image"
+              style="background-image: url(./images/slider2.jpg)"
+            ></div>
+          </div>
+          <div class="carousel-item active">
+            <div
+              class="overlay-image"
+              style="background-image: url(./images/slider4.jpg)"
+            ></div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#carouselExampleInterval"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,14 +165,13 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#carouselExampleInterval"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
       <!-- hero content -->
       <div class="hero-container">
         <p class="hero-sub">Just Dream, You Can Do It!</p>
@@ -214,7 +246,7 @@
     <!-- Services ends -->
 
     <!-- Services carousel starts -->
-    <section class="services-carousel">
+    <section class="services-carousel py-5">
       <div class="container">
         <h4 class="main-title text-center">.Professional Work</h4>
         <p class="sub-title text-center">Gym Fitness Services</p>
@@ -321,6 +353,79 @@
       </div>
     </section>
     <!-- Services carousel ends -->
+
+    <!-- News start -->
+    <section class="news-insights py-5">
+      <div class="container">
+        <h4 class="main-title text-center">.Powerful Motivation</h4>
+        <p class="sub-title text-center">Gym Fitness News</p>
+        <div class="row mx-auto">
+          <div class="news-col-1 col-md-5 col-12 mx-auto">
+            <div class="card" style="max-width: 800px">
+              <img src="./images/img-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-5">
+                <h5 class="card-title">How to gain strength & power Fast</h5>
+                <div class="d-flex justify-content-between mb-4">
+                  <small class="text-muted">Gym Author</small>
+                  <small class="text-muted">12/09/22</small>
+                </div>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Accusantium adipisci perspiciatis minima maiores temporibus
+                  laboriosam.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="news-col-2 col-md-5 col-12 mx-auto">
+            <div class="card news-card mb-3" style="max-width: 800px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body p-5">
+                    <h5 class="card-title">How To Train Your Back</h5>
+                    <div class="d-flex justify-content-between mb-4">
+                      <small class="text-muted">Gym Author</small>
+                      <small class="text-muted">12/09/22</small>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ut, voluptas?
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="./images/img-2.jpg" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="card news-card mb-3" style="max-width: 800px">
+              <div class="row g-0">
+                <div class="col-md-6">
+                  <div class="card-body p-5">
+                    <h5 class="card-title">5 Benefits of yoga</h5>
+                    <div class="d-flex justify-content-between mb-4">
+                      <small class="text-muted">Gym Author</small>
+                      <small class="text-muted">12/09/22</small>
+                    </div>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Praesentium, in.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <img src="./images/img-3.jpg" class="img-fluid" alt="..." />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-text text-center" style="font-size: 25vw">News</div>
+    </section>
+    <!-- News end -->
 
     <!-- JavaScript Bundle with Popper -->
     <script
