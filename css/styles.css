@@ -560,12 +560,70 @@ section {
   font-size: 22px;
 }
 
-.video-button i {
+.video-button {
   position: relative;
-  top: -50px;
-  font-size: 90px;
-  color: #db0000;
+  top: -100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid lightgray;
   z-index: 10;
+  padding-top: 15px;
+}
+
+.video-button i {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 120px;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
+/* Gym Features */
+.gym-features {
+  width: 100%;
+  position: relative;
+  top: -170px;
+}
+
+.feature-card-one {
+  padding: 70px;
+  background-color: #db0000;
+  color: #fff;
+}
+
+.feature-card-two {
+  padding: 70px;
+  background-color: #b30000;
+  color: #fff;
+}
+
+.feature-card-three {
+  padding: 70px;
+  background-color: #880000;
+  color: #fff;
+}
+
+.feature-card-four {
+  padding: 70px;
+  background-color: #650000;
+  color: #fff;
+}
+
+.feat-icon i {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+.feature-title {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 /* Media queries */
