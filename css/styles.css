@@ -12,8 +12,6 @@
 }
 
 /* Custom Properties */
-:root {
-}
 
 /* Global Styles */
 
@@ -37,9 +35,9 @@ ul {
   list-style: none;
 }
 
-section {
+/* section {
   padding: 2rem 0;
-}
+} */
 
 /* Reusable Styles */
 .container {
@@ -123,6 +121,17 @@ section {
 .bg-text {
   position: absolute;
   top: -80px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  opacity: 0.08;
+  z-index: -1;
+}
+
+.bg-text-2 {
+  position: absolute;
+  bottom: -130px;
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
@@ -530,7 +539,7 @@ section {
 /* Gym CTA */
 .gym-cta {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.4),
@@ -588,6 +597,7 @@ section {
   width: 100%;
   position: relative;
   top: -170px;
+  margin-bottom: -70px;
 }
 
 .feature-card-one {
@@ -623,6 +633,50 @@ section {
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Trainers */
+.trainers {
+  position: relative;
+}
+
+.coach-card-body {
+  text-align: center;
+  padding: 80px 40px;
+  background-color: #fff;
+}
+
+.coach-card-body:hover .coach-name {
+  color: #db0000;
+}
+
+.coach-image {
+  text-align: center;
+}
+
+.coach-image img {
+  max-width: 80%;
+  position: relative;
+  top: 40px;
+}
+
+.coach-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.coach-title {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.coach-details {
+  color: #777;
   margin-bottom: 20px;
 }
 
