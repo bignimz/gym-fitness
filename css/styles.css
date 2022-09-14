@@ -63,7 +63,6 @@ ul {
 }
 
 .gym-btn:hover {
-  border: none;
   color: #fff;
   background-color: #db0000;
 }
@@ -680,10 +679,65 @@ ul {
   margin-bottom: 20px;
 }
 
+/* Store Section */
+.store {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(219, 0, 0, 0.7),
+      rgba(109, 0, 0, 0.9)
+    ),
+    url("../images/storebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.shop-card {
+  padding: 30px;
+}
+
+.product-image img {
+  margin-bottom: 20px;
+}
+
+.product-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.product-title:hover {
+  color: #db0000;
+  cursor: pointer;
+}
+
+.product-excerpt {
+  color: #888;
+}
+
+.price {
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.currency {
+  position: absolute;
+  font-size: 14px;
+  right: -10px;
+}
+
 /* Media queries */
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .trainers-cta {
     top: -50px;
+  }
+
+  .card {
+    max-width: 300px;
   }
 }
 
@@ -720,6 +774,10 @@ ul {
 
   .about-img {
     display: none;
+  }
+
+  .card {
+    max-width: 350px;
   }
 }
 
@@ -806,5 +864,9 @@ ul {
 */
   .about-right {
     padding-top: 10px;
+  }
+
+  .card {
+    max-width: 330px;
   }
 }
