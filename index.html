@@ -88,7 +88,7 @@
             </div>
 
             <div class="nav-right">
-              <i class="fa fa-search" aria-hidden="true"></i>
+              <i class="fa fa-search" id="search-icon" aria-hidden="true"></i>
               <i class="fa fa-user" aria-hidden="true"></i>
               <i class="fa fa-shopping-basket" aria-hidden="true">
                 <span class="items-counter">0</span>
@@ -102,6 +102,20 @@
       </nav>
     </header>
     <!-- Header ends -->
+
+    <!-- Searchbar -->
+    <div class="search-bar" id="search-bar">
+      <div class="search"></div>
+      <div>
+        <input
+          class="form-control search-input"
+          placeholder="Search"
+          type="search"
+          name="search"
+          id="search-input"
+        />
+      </div>
+    </div>
 
     <!-- Hero starts -->
     <section class="hero">
@@ -721,6 +735,153 @@
       </div>
     </section>
     <!-- Store end -->
+
+    <!-- Testimonials start -->
+    <section class="testimonials">
+      <div class="container">
+        <h4 class="main-title text-center">.Happy Customers</h4>
+        <p class="sub-title text-center">Testimonials</p>
+
+        <div class="testimonial-body testimony-active" style="max-width: 40vw">
+          <p class="testimony text-center">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+            quisquam vitae fugiat quaerat. Incidunt recusandae voluptatem dolor
+            labore. Possimus, eaque.
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+          </p>
+          <p class="testimony-author text-center" style="font-size: 5vw">
+            Felix Jensen
+          </p>
+        </div>
+
+        <div class="testimonial-body" style="max-width: 40vw">
+          <p class="testimony text-center">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            Gym Fitness trainers are just awesome! I will definitely recommend
+            GF to all my friends
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+          </p>
+          <p class="testimony-author text-center" style="font-size: 5vw">
+            Julia Roberts
+          </p>
+        </div>
+
+        <div class="testimonial-body" style="max-width: 40vw">
+          <p class="testimony text-center">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            I am in my best fit, thanks to gym fitness instructors for their
+            patience and support.
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+          </p>
+          <p class="testimony-author text-center" style="font-size: 5vw">
+            Uria Milosevic
+          </p>
+        </div>
+
+        <div class="testimonial-body" style="max-width: 40vw">
+          <p class="testimony text-center">
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa
+            quisquam vitae fugiat quaerat. Incidunt recusandae voluptatem dolor
+            labore. Possimus, eaque.
+            <i class="fa fa-quote-right" aria-hidden="true"></i>
+          </p>
+          <p class="testimony-author text-center" style="font-size: 5vw">
+            Felix Jensen
+          </p>
+        </div>
+      </div>
+      <div class="author-pics">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <div class="author-details text-center">
+            <img
+              class="img-fluid user-pic active-pic"
+              src="./images/user1.jpg"
+              alt=""
+              onclick="showReview()"
+            />
+            <p class="author-name mt-4 mb-2">Felix Jensen</p>
+            <small class="author-title">CEO - Happy People</small>
+          </div>
+
+          <div class="author-details text-center">
+            <img
+              class="img-fluid user-pic"
+              src="./images/user2.jpg"
+              alt=""
+              onclick="showReview()"
+            />
+            <p class="author-name mt-4 mb-2">Julia Roberts</p>
+            <small class="author-title">HR - Me & U</small>
+          </div>
+
+          <div class="author-details text-center">
+            <img
+              class="img-fluid user-pic"
+              src="./images/user3.jpg"
+              alt=""
+              onclick="showReview()"
+            />
+            <p class="author-name mt-4 mb-2">Uria Milosevic</p>
+            <small class="author-title">Accountant</small>
+          </div>
+
+          <div class="author-details text-center">
+            <img
+              class="img-fluid user-pic"
+              src="./images/user4.jpg"
+              alt=""
+              onclick="showReview()"
+            />
+            <p class="author-name mt-4 mb-2">Felix Jensen</p>
+            <small class="author-title">CEO - Happy People</small>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials end -->
+
+    <!-- Gallery start -->
+    <section class="gallery-section row mx-auto owl-carousel owl-theme">
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-1.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-2.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-3.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-1.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-2.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-3.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-1.jpg" alt="" class="gallery-img" />
+      </div>
+      <div class="col-md-12 mx-auto">
+        <img src="./images/img-2.jpg" alt="" class="gallery-img" />
+      </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Partners start -->
+    <section class="partners py-5">
+      <div class="container">
+        <h4 class="main-title text-center">.Trusted Partners</h4>
+        <p class="sub-title text-center">Companies we work with</p>
+        <img src="./images/partners.png" alt="" class="img-fluid" />
+      </div>
+    </section>
+    <!-- Partners end -->
 
     <!-- JavaScript Bundle with Popper -->
     <script
