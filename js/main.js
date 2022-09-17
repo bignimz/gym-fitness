@@ -32,6 +32,14 @@ $(document).ready(function () {
     $(".search-bar").slideToggle();
     $(".search").slideToggle();
   });
+
+  // Shopping cart
+  $(".cart").click(function () {
+    $(".shopping-cart").slideToggle();
+  });
+  $(".close").click(function () {
+    $(".shopping-cart").slideToggle();
+  });
 });
 
 // Testimonials
