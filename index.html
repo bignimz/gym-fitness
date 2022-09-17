@@ -89,9 +89,9 @@
             </div>
 
             <div class="nav-right">
-              <i class="fa fa-search" id="search-icon" aria-hidden="true"></i>
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <i class="fa fa-shopping-basket" aria-hidden="true">
+              <i class="fa fa-search" id="search-icon" title="Search" aria-hidden="true"></i>
+              <i class="fa fa-user profile" title="Profile settings" aria-hidden="true"></i>
+              <i class="fa fa-shopping-basket cart" title="View cart" aria-hidden="true">
                 <span class="items-counter">0</span>
               </i>
             </div>
@@ -101,6 +101,55 @@
           </div>
         </div>
       </nav>
+      <!-- Cart start -->
+      <div class="shopping-cart shadow">
+        <div class="cart-header">
+          <p><span class="bold">3 Items</span>  - Total $386</p>
+          <p class="close">x</p>
+        </div>
+        <hr>
+        <div class="cart-detail">
+          <div class="cart-product">
+            <img src="./images/product-1.png" alt="" class="img-fluid">
+          </div>
+          <div class="cart-desc">
+            <p class="c-desc">Lorem, ipsum dolor sit amet consectetur elit.</p>
+            <p class="qty bold">1 x $120</p>
+          </div>
+        </div>
+        <hr>
+        <div class="cart-detail">
+          <div class="cart-product">
+            <img src="./images/product-1.png" alt="" class="img-fluid">
+          </div>
+          <div class="cart-desc">
+            <p class="c-desc">Lorem, ipsum dolor sit amet consectetur elit.</p>
+            <p class="qty bold">1 x $120</p>
+          </div>
+        </div>
+        <hr>
+        <div class="cart-detail">
+          <div class="cart-product">
+            <img src="./images/product-1.png" alt="" class="img-fluid">
+          </div>
+          <div class="cart-desc">
+            <p class="c-desc">Lorem, ipsum dolor sit amet consectetur elit.</p>
+            <p class="qty bold">1 x $146</p>
+          </div>
+        </div>
+        <hr>
+        <div class="cart-buttons">
+          <div class="viewcart-btn">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            View Cart
+          </div>
+          <div class="checkout-btn">
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Checkout
+          </div>
+        </div>
+      </div>
+      <!-- Cart ends -->
     </header>
     <!-- Header ends -->
 
@@ -118,6 +167,8 @@
         id="search-input"
       />
     </div>
+    <!-- Searchbar end -->
+
 
 
     <!-- Hero starts -->
