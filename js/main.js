@@ -24,11 +24,13 @@ $(document).ready(function () {
   });
 
   $("#search-icon").click(function () {
-    $("#search-bar").slideToggle();
+    $(".search-bar").slideToggle();
+    $(".search").slideToggle();
   });
 
-  $(".search").click(function () {
-    $("#search-bar").slideToggle();
+  $("#overlay").click(function () {
+    $(".search-bar").slideToggle();
+    $(".search").slideToggle();
   });
 });
 
