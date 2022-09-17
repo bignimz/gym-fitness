@@ -44,6 +44,7 @@ body {
   font-size: 1.6rem;
   color: #333;
   background-color: #ebebeb;
+  overflow-x: hidden;
 }
 
 a {
@@ -992,7 +993,7 @@ ul {
 
 .breadcrumb-item.active {
   color: #fff;
-  font-size: 24px;
+  /* font-size: 24px; */
   margin-left: 15px;
   padding-bottom: 10px;
   border-bottom: 2px solid #db0000;
