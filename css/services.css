@@ -3,3 +3,104 @@
   color: #fff;
   border-radius: 10px;
 }
+
+/* Service Details */
+.service-detail {
+  padding: 70px 0;
+}
+
+.service-detail-wrapper {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; */
+}
+
+.service-main-content {
+  /* width: 70%; */
+  background-color: #fff;
+  padding: 40px;
+}
+
+/* Sidebar */
+
+.sidebar-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.quicklinks {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.q-link {
+  font-size: 16px;
+  color: #555;
+}
+
+.q-link:hover {
+  color: #dd0000;
+}
+
+.advert {
+  background-color: #dd0000;
+  color: #fff;
+  height: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.advert-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advert-details h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.advert-details p {
+  text-transform: uppercase;
+}
+
+.quick-contact {
+  background-color: #222;
+  color: #c1c1c1;
+  padding: 20px;
+}
+
+.call-input {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.call-input::placeholder {
+  color: #fff;
+}
+
+.call-submit {
+  background-color: #dd0000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+.call-submit:hover {
+  background-color: #850000;
+}
